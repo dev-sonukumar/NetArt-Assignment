@@ -26,7 +26,7 @@ const HeroSection = () => {
             with IoT enabled control panel.
           </li>
         </ul>
-        <img src="../../public/asserts/2.png" alt="main" />
+        <img src="../../public/asserts/2.JPG" alt="main" />
 
         <p>
           Government of India has awarded the "National Energy Conservation
