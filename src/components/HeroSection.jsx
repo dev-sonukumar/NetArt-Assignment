@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="flex heroSection container">
       <div className="left-container ">
-        <img src="../../public/asserts/1.png" alt="" srcset="" />
+        <img src="../../public/asserts/1.JPG" alt="" srcset="" />
       </div>
 
       <div className="right-container">
