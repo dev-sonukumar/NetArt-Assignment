@@ -1,0 +1,86 @@
+/* --- Reuseable css --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+body {
+  background-image: linear-gradient(rgb(245, 245, 245), rgb(253, 253, 179));
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ----  Hero Section ---- */
+.heroSection,
+.productSection,
+.productSection img {
+  margin-bottom: 50px;
+}
+
+/* ---- product section ----- */
+
+.productSection {
+  padding-bottom: 20px;
+  border-bottom: 2px solid red;
+}
+
+/* --- footer ---- */
+.footerSection ul li {
+  list-style: none;
+  border-right: 2px solid red;
+  margin-left: 5px;
+  padding: 1px 5px;
+  font-weight: 600;
+  font-size: small;
+}
+.footerSection ul {
+  margin-top: 20px;
+}
+
+/* --- Sub Footer -- */
+
+.subFooter {
+  margin-top: 40px;
+  height: 150px;
+  background-color: rgb(247, 63, 63);
+}
+.subFooter ul {
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.subFooter a {
+  color: rgb(255, 255, 255);
+}
+
+.icons {
+  border-radius: 50%;
+  font-size: 30px;
+  margin: 0 5px;
+  color: rgb(255, 255, 255);
+}
+.phone-icon {
+  color: rgb(247, 63, 63);
+  background-color: #ffffff;
+  padding: 4px;
+}

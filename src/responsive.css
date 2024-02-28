@@ -1,0 +1,133 @@
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Additional mobile-specific styles can be added here */
+  .container {
+    width: 100%;
+  }
+  h2,
+  h3 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+
+  .navContainer img {
+    height: 100px;
+  }
+  .left-container img {
+    height: 50vh;
+  }
+  .right-container img {
+    width: 95vw;
+  }
+
+  .right-container h2 {
+    font-size: 4vw;
+    margin: 5px;
+  }
+
+  .right-container li,
+  p {
+    font-size: 3vw;
+    margin: 10px 5px;
+  }
+
+  /* product*/
+  .productSection {
+    padding-top: 20px;
+  }
+  .productSection img {
+    width: 95%;
+  }
+  .subFooter ul {
+    flex-direction: column;
+  }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* No need to adjust container width for tablets in this example */
+  /* Additional tablet-specific styles can be added here */
+
+  /* Navigation */
+  .navContainer img {
+    height: 100px;
+  }
+
+  /* Hero */
+
+  .left-container img {
+    height: 60vh;
+  }
+  .right-container img {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .heroSection h2 {
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+  }
+  .heroSection li {
+    margin-left: 40px;
+  }
+  .heroSection li,
+  p {
+    font-size: 2vw;
+  }
+
+  /* product*/
+  .productSection img {
+    width: 95%;
+  }
+}
+
+/* Styles for laptops and larger screens */
+@media only screen and (min-width: 1025px) {
+  /* No need to adjust container width for laptops in this example */
+  /* Additional laptop-specific styles can be added here */
+
+  /* Navigation */
+
+  .navContainer img {
+    width: 20vw;
+    margin-bottom: 20px;
+  }
+
+  /* Hero */
+  .left-container {
+    width: 30%;
+  }
+  .right-container {
+    width: 50%;
+  }
+  .left-container img {
+    height: 70vh;
+  }
+  .right-container img {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  li {
+    margin-left: 40px;
+  }
+  li,
+  p {
+    font-size: 16px;
+  }
+
+  /* product*/
+  .productSection img {
+    width: 70%;
+  }
+
+  .footerSection {
+    padding: 0px 200px;
+  }
+}
