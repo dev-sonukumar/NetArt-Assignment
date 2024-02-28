@@ -4,7 +4,11 @@ const HeroSection = () => {
   return (
     <section className="flex heroSection container">
       <div className="left-container ">
-        <img src="../../public/images/1.png" alt="" srcset="" />
+        <img
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsO-o_l7QSUQ295y3SDS0eMB7E3L7vRqekxIhma6sloRlenxh3kxYI4G5BfBspQhbyW39eSgXDf7l0ff2Hwa4_JTpY1NedpEoK4cCsSQg0YIWwkB6eTN6un2o12U5EsDZTJLaJDNNyD0usCNuVX8KPzk7vamsJ0giHIZlCTwqW77Ax6DxdOlbsJyI153Y/s16000/1.png"
+          alt=""
+          srcset=""
+        />
       </div>
 
       <div className="right-container">
@@ -26,7 +30,7 @@ const HeroSection = () => {
             with IoT enabled control panel.
           </li>
         </ul>
-        <img src="../../public/images/2.png" alt="main" />
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA9nr6UcNxquwsfKHK7QTe5AQh8q-IAR75mRbzhlaj5wSFtSOeOylaMRKDl8_XXCKd44C21s1NjshyzqUns06IHPRK6zLJCOsBCfii1349MmRheT2u3PIlPdDY3Adccpu5jn5oc3D__S-rpE1ZbbZBJgoJoCmYH-wLF1M7W36xBXESUS87Fon-hkRQgDg/s16000/2.png" alt="main" />
 
         <p>
           Government of India has awarded the "National Energy Conservation
