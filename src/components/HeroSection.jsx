@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="flex heroSection container">
       <div className="left-container ">
-        <img src="../../public/asserts/1.JPG" alt="" srcset="" />
+        <img src="../../public/images/1.JPG" alt="" srcset="" />
       </div>
 
       <div className="right-container">
@@ -26,7 +26,7 @@ const HeroSection = () => {
             with IoT enabled control panel.
           </li>
         </ul>
-        <img src="../../public/asserts/2.JPG" alt="main" />
+        <img src="../../public/images/2.JPG" alt="main" />
 
         <p>
           Government of India has awarded the "National Energy Conservation
